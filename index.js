@@ -6,7 +6,7 @@ import moviesRoutes from './src/routes/moviesRoutes';
 const app = express();
 const PORT=3000;
 
-mongoose.connect('mongodb://mongo/moviesdb' ,{ useNewUrlParser: true });
+mongoose.connect('mongodb://localhost:27017' ,{ useNewUrlParser: true });
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
