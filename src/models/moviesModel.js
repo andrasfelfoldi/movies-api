@@ -14,9 +14,5 @@ export const MoviesSchema = new Schema({
     rating: {
         type: String,
         required: true
-    },
-    movieId: {
-        type: String,
-        required: true
     }
 });
